@@ -25,7 +25,13 @@ latest_posts:
 
 Hi, I'm Yangda!
 
-I recently graduated from the Australian National University with First Class Honours, where I majored in pure mathematics and computer science, with a minor in physics. I wrote my honours thesis on a braid group action on category $$\mathcal{O}$$, co-supervised by [Dr. Asilata Bapat](https://asilatabapat.org/) and [Dr. Leonardo Maltoni](https://webusers.imj-prg.fr/~leonardo.maltoni/). 
+I am currently a research assistant at UNSW investigating the interpretability of equation discovery machine learning algorithms with applications to climate change under [Dr. Sanaa Hobeichi](https://www.unsw.edu.au/staff/sanaa-hobeichi).
+
+My current interests can be summed up broadly as "getting technology to do the exact thing we want them to do". In July 2024, I attended the [Human-Aligned AI Summer School](https://humanaligned.ai/2024/) which also got me thinking about interpretable machine learning and AI alignment, which I will be exploring further through the [TARA program](https://www.taraprogram.org/) beginning mid-March. Previously, I was contracted by the Australian Signals Directorate to red-team the [Swiss Post e-voting system](https://www.post.ch/en/about-us/profile/swiss-post-and-politics/swiss-post-in-the-digital-world/e-voting-electronic-vote-casting-for-switzerland) for cryptographic vulnerabilities. I am also interested in applications of machine learning used in mathematical research.
+
+I recently graduated from the Australian National University with First Class Honours, where I majored in pure mathematics and computer science, with a minor in physics. I wrote my [honours thesis](https://yangdabei.github.io/assets/pdf/Thesis_YB.pdf) on a braid group action on category $$\mathcal{O}$$, co-supervised by [Dr. Asilata Bapat](https://asilatabapat.org/) and [Dr. Leonardo Maltoni](https://webusers.imj-prg.fr/~leonardo.maltoni/). 
+
+
 
 <!-- Throughout my undergraduate degree, I -->
 
