@@ -11,10 +11,17 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "research",
-          description: "A growing collection of your cool projects.",
+          description: "I currently do not have any original research, so this page contains all my expository writings!",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
+          },
+        },{id: "nav-fun",
+          title: "fun",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/fun/";
           },
         },{id: "nav-cv",
           title: "CV",
