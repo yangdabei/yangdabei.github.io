@@ -25,5 +25,7 @@ latest_posts:
 
 Hi, I'm Yangda!
 
-I recently graduated from the Australian National University with First Class Honours, where I majored in pure mathematics and computer science, with a minor in physics. I wrote my honours thesis on a braid group action on category $$\mathcal{O}$$, co-supervised by [Dr. Asilata Bapat](https://asilatabapat.org/) and [Dr. Leonardo Maltoni](https://webusers.imj-prg.fr/~leonardo.maltoni/). Throughout my undergraduate degree, I
+I recently graduated from the Australian National University with First Class Honours, where I majored in pure mathematics and computer science, with a minor in physics. I wrote my honours thesis on a braid group action on category $$\mathcal{O}$$, co-supervised by [Dr. Asilata Bapat](https://asilatabapat.org/) and [Dr. Leonardo Maltoni](https://webusers.imj-prg.fr/~leonardo.maltoni/). 
+
+<!-- Throughout my undergraduate degree, I -->
 
