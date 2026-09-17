@@ -1,0 +1,50 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+
+  {{ $hasToC := site.Params.showtoc }}
+  {{ if isset .Params "toc" }}{{ $hasToC = .Params.toc }}{{ end }}
+  {{ $headers := findRE "<h[2-6]" .Content }}
+  {{ if and $hasToC (ge (len $headers) 1) }}
+    <details class="toc" open>
+      <summary class="toc-title">Table of contents</summary>
+      <nav class="toc-content">
+        {{ .TableOfContents }}
+      </nav>
+    </details>
+  {{ end }}
+
+  {{ .Content }}
+
+  {{ if eq .Section "blog" }}
+    <div class="time">
+      {{ partial "date.html" .Date }}
+      {{ $showReadingTime := site.Params.showreadingtime }}
+      {{ if isset .Params "showreadingtime" }}
+        {{ $showReadingTime = .Params.showreadingtime }}
+      {{ end }}
+      {{ if and $showReadingTime .ReadingTime }}
+        <span class="reading-time"> · {{ .ReadingTime }} min read</span>
+      {{ end }}
+    </div>
+  {{ end }}
+
+  {{ $showComments := site.Params.comments }}
+  {{ if isset .Params "comments" }}{{ $showComments = .Params.comments }}{{ end }}
+  {{ if and .Content $showComments }}
+    <div class="comments">{{ partial "comments.html" . }}</div>
+  {{ end }}
+
+  {{ if not .IsHome }}
+    <div class="terminal-nav">
+      <div class="back-nav">
+        {{ with .Parent }}
+          <a href="{{ .RelPermalink }}" class="back-link">../</a>
+        {{ else }}
+          <a href="{{ "/" | relURL }}" class="back-link">../</a>
+        {{ end }}
+      </div>
+      {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+    </div>
+  {{ end }}
+{{ end }}

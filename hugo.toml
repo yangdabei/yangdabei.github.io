@@ -1,0 +1,92 @@
+baseURL = "https://yangdabei.github.io/"
+locale = "en-GB"
+title = "Yangda Bei"
+theme = "shibui"
+timeZone = "Europe/London"
+enableGitInfo = true
+enableRobotsTXT = true
+
+[params]
+  description = "Yangda Bei — AI safety researcher and mathematician."
+  comments = false
+  showtoc = true
+  showreadingtime = true
+  showlastmod = false
+
+  [params.author]
+    name = "Yangda Bei"
+    email = "yangdabei3426@gmail.com"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
+
+    [markup.goldmark.renderer]
+      unsafe = true
+
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    noClasses = true
+    style = "algol_nu"
+
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = true
+
+[menus]
+  [[menus.main]]
+    name = "Mathematics"
+    pageRef = "/mathematics"
+    weight = 10
+
+  [[menus.main]]
+    name = "Writings"
+    pageRef = "/writings"
+    weight = 15
+
+  [[menus.main]]
+    name = "Fun"
+    pageRef = "/fun"
+    weight = 20
+
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  expiryDate = ["expiryDate"]
+  lastmod = [":git", "lastmod", "date", "publishDate"]
+  publishDate = ["publishDate", "date"]
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"
+
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+
+  [[module.mounts]]
+    source = "assets"
+    target = "static/assets"

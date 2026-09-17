@@ -1,0 +1,14 @@
+publications:
+  - title: Benign Loss Landscapes Can Coexist with Worst-Case Hardness
+    year: 2026
+    status: Preprint
+    url: https://arxiv.org/abs/2609.13057
+    pdf: https://arxiv.org/pdf/2609.13057
+    image: /assets/img/research/benign-vs-non-benign-landscapes.png
+    image_alt: Tree tensor networks and contrasting benign and non-benign loss landscapes
+    authors:
+      - name: Zach Furman
+      - name: Stephan Wäldchen
+      - name: Yangda Bei
+        highlight: true
+      - name: Liam Hodgkinson

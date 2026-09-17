@@ -1,0 +1,28 @@
+<section class="home-research" aria-labelledby="home-research-heading">
+  <h2 id="home-research-heading">Research</h2>
+  {{ range hugo.Data.publications.publications }}
+    <article class="publication">
+      <a class="publication__thumbnail" href="{{ .url }}" aria-label="Read {{ .title }} on arXiv">
+        <img src="{{ .image }}" alt="{{ .image_alt }}" width="840" height="320" loading="lazy">
+      </a>
+      <div class="publication__details">
+        <h3><a href="{{ .url }}">{{ .title }}</a></h3>
+        <p class="publication__authors">
+          {{- $authorCount := len .authors -}}
+          {{- range $index, $author := .authors -}}
+            {{- if gt $index 0 -}}
+              {{- if eq $index (sub $authorCount 1) -}}
+                {{- if eq $authorCount 2 }} and {{ else }}, and {{ end -}}
+              {{- else }}, {{ end -}}
+            {{- end -}}
+            {{- if $author.highlight }}<strong>{{ $author.name }}</strong>{{ else }}{{ $author.name }}{{ end -}}
+          {{- end -}}
+        </p>
+        <p class="publication__venue">{{ .status }}, {{ .year }}</p>
+        <p class="publication__links">
+          <a href="{{ .url }}">arXiv</a><span aria-hidden="true"> · </span><a href="{{ .pdf }}">PDF</a>
+        </p>
+      </div>
+    </article>
+  {{ end }}
+</section>

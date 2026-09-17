@@ -1,0 +1,26 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  <table class="time-list">
+    <tbody>
+      {{ range .Pages }}
+        <tr>
+          <td class="time-list__date">{{- partial "date" .Date -}}</td>
+          <td class="time-list__title">
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+          </td>
+        </tr>
+      {{ end }}
+    </tbody>
+  </table>
+  <div class="terminal-nav">
+    <div class="back-nav">
+      {{ with .Parent }}
+        <a href="{{ .RelPermalink }}" class="back-link">../</a>
+      {{ else }}
+        <a href="{{ "/" | relURL }}" class="back-link">../</a>
+      {{ end }}
+    </div>
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+  </div>
+{{ end }}
