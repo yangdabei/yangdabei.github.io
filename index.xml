@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yangda Bei</title><link>https://yangdabei.github.io/</link><description>Recent content on Yangda Bei</description><generator>Hugo</generator><language>en-GB</language><managingEditor>yangdabei3426@gmail.com (Yangda Bei)</managingEditor><webMaster>yangdabei3426@gmail.com (Yangda Bei)</webMaster><atom:link href="https://yangdabei.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Fun</title><link>https://yangdabei.github.io/fun/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>yangdabei3426@gmail.com (Yangda Bei)</author><guid>https://yangdabei.github.io/fun/</guid><description>&lt;h2 id="causally-explained-diffusion-models"&gt;
+ Causally Explained: Diffusion Models
+&lt;/h2&gt;
+&lt;p&gt;For an assignment in
+&lt;a href="https://programsandcourses.anu.edu.au/course/comp4670"&gt;COMP4670 Statistical Machine Learning&lt;/a&gt;,
+I made a short explainer about diffusion models in the style of
+&lt;a href="https://www.youtube.com/CasuallyExplained"&gt;Casually Explained&lt;/a&gt;.&lt;/p&gt;
+&lt;video class="site-video" controls preload="metadata"&gt;
+ &lt;source src="https://yangdabei.github.io/assets/video/causally-explained.mp4" type="video/mp4"&gt;
+ Your browser does not support embedded video.
+&lt;/video&gt;</description></item><item><title>Mathematics</title><link>https://yangdabei.github.io/mathematics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>yangdabei3426@gmail.com (Yangda Bei)</author><guid>https://yangdabei.github.io/mathematics/</guid><description>&lt;p&gt;My mathematical interests span representation theory, algebraic geometry,
+topology, and category theory, shaped by the excellent lecturers with whom I
+took graduate-level courses during the final two years of my undergraduate
+degree.&lt;/p&gt;
+
+
+&lt;h2 id="expository-writing"&gt;
+ Expository writing
+&lt;/h2&gt;
+
+
+&lt;h3 id="honours-thesis--a-braid-group-action-on-category"&gt;
+ Honours thesis : &lt;a href="https://yangdabei.github.io/assets/pdf/Thesis_YB.pdf"&gt;&lt;em&gt;A Braid Group Action on Category &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant="script"&gt;O&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;\mathcal{O}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.6833em;"&gt;&lt;/span&gt;&lt;span class="mord mathcal" style="margin-right:0.02778em;"&gt;O&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/em&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;In this thesis, I give a self-contained exposition of a braid group action on
+the bounded derived category of category &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant="script"&gt;O&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;\mathcal{O}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.6833em;"&gt;&lt;/span&gt;&lt;span class="mord mathcal" style="margin-right:0.02778em;"&gt;O&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; due to Rouquier. This structure plays an important role in the representation theory of Lie algebras and has connections to
+modern geometry. I discuss Soergel&amp;rsquo;s original work on category O,
+Stroppel-–Mazorchuk shuffling functors, and the Elias-–Williamson diagrammatic
+category of Soergel bimodules.&lt;/p&gt;</description></item><item><title>Research</title><link>https://yangdabei.github.io/research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>yangdabei3426@gmail.com (Yangda Bei)</author><guid>https://yangdabei.github.io/research/</guid><description>&lt;p&gt;I study deep learning theory and alignment, with a particular interest in how
+the geometry and dynamics of training determine what neural networks learn. My
+current work uses tensor networks as mathematically tractable models of deep
+learning.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Papers&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;h2 id="benign-loss-landscapes-can-coexist-with-worst-case-hardness"&gt;
+ &lt;a href="https://arxiv.org/abs/2609.13057"&gt;Benign Loss Landscapes Can Coexist with Worst-Case Hardness&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Zach Furman, Stephan Wäldchen, &lt;strong&gt;Yangda Bei&lt;/strong&gt;, and Liam Hodgkinson
+&lt;em&gt;Preprint, 2026&lt;/em&gt; · &lt;a href="https://arxiv.org/abs/2609.13057"&gt;arXiv&lt;/a&gt; ·
+&lt;a href="https://arxiv.org/pdf/2609.13057"&gt;PDF&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

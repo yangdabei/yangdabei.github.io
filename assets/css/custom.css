@@ -1,0 +1,84 @@
+.profile-photo {
+  display: block;
+  width: 8rem;
+  height: 8rem;
+  max-width: none;
+  margin: 0 0 var(--spacing-md) var(--spacing-md);
+  padding: 0;
+  float: right;
+  border: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 43%;
+  box-shadow: none;
+}
+
+.home-research {
+  clear: both;
+  padding-top: var(--spacing-base);
+}
+
+.publication {
+  display: grid;
+  grid-template-columns: minmax(0, 10rem) minmax(0, 1fr);
+  gap: var(--spacing-base);
+  align-items: start;
+}
+
+.publication__thumbnail {
+  display: block;
+}
+
+.publication__thumbnail img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--color-border);
+  background: #fff;
+}
+
+.publication__details h3 {
+  margin-top: 0;
+}
+
+.publication__authors,
+.publication__venue,
+.publication__links {
+  margin: 0 0 var(--spacing-xs);
+}
+
+.publication__venue {
+  font-style: italic;
+}
+
+.publication__links {
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.site-video {
+  display: block;
+  width: 100%;
+  margin: var(--spacing-base) 0;
+  border: 1px solid var(--color-border);
+  border-radius: var(--pre-border-radius);
+  background: var(--color-bg-secondary);
+}
+
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: var(--spacing-xs) 0;
+}
+
+@media (max-width: 600px) {
+  .profile-photo {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+
+  .publication {
+    grid-template-columns: minmax(6.5rem, 34%) minmax(0, 1fr);
+    gap: var(--spacing-sm);
+  }
+}
