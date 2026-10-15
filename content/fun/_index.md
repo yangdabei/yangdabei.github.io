@@ -1,9 +1,16 @@
 ---
 title: "Fun"
+layout: single
 description: "Things I make outside my main research."
 toc: false
 comments: false
 ---
+
+## Lists
+
+<!-- Lists are fun to make! Here are a list of [books](/fun/books/) I've read, [shows and concerts](/fun/shows-concerts/) I've seen, and [museums and galleries](/fun/museums-galleries/) I've explored. -->
+
+- [Books](/fun/books/)
 
 ## Causally Explained: Diffusion Models
 
